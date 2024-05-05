@@ -11,6 +11,17 @@ body{
     padding: 15px 35px;
     
 }
+.section_title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800px;
+}
+.section_description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* Nav Releted Things */
 .text_primary{
     color:#FD6E0A;
@@ -42,12 +53,40 @@ nav a{
 /* header releted styles */
 .header{
     background:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
 }
 .banner .profilepic{
     width:500px;
+}
+.banner_greeting{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom:0px;
+}
+.bannerh1{
+    font-size: 85px;
+    font-weight: 800px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.banner_content{
+    max-width: 500px ;
+}
+.bannerp{
+    margin-bottom: 30px;
+
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3 ;
+    margin: 130px 100px;
 }
