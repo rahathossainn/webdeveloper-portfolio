@@ -152,3 +152,32 @@ main section{
     margin-top: 50px;
     text-align: center;
 }
+
+/* footer style */
+footer{
+    display:flex;
+    background-color: #FFF8F3;
+    margin-top: 80px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.footer_col{
+    width: 50%;
+}
+form input[type="text"], form input[type="email"], 
+textarea{
+    display: block;
+    padding: 18px 35px;
+    border-radius: 10px;
+    border: none;
+    margin: 25px 0;
+    color: #757575;
+    background: white;
+    width: 100%;
+}
+.social_f a{
+    margin-right: 24px;
+}
+footer .section_description{
+    text-align: left;
+}
